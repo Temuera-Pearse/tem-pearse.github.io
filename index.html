@@ -1,9 +1,121 @@
+<!DOCTYPE html>
 <html>
   <head>
-    <title>My blog</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Tems Blog</title>
+    <style>
+      body {
+        margin: 20px;
+        border: 100px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        background-color: rgb(226, 250, 190);
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+      }
+
+      .image-tem {
+        margin: 0 20px;
+        max-width: 100%;
+        height: auto;
+        border-radius: 50%;
+      }
+
+      .image-wrapper {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+
+      .header {
+        text-align: center;
+      }
+
+      .helloMessage {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+      }
+
+      .navigation {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+
+      .navigation a {
+        display: inline-block;
+        margin: 0 10px;
+        color: rgb(188, 27, 27);
+        text-decoration: silver;
+      }
+
+      .navigation a:hover {
+        color: #000;
+      }
+
+      p {
+        display: flex;
+        text-align: center;
+        margin-bottom: 20px;
+      }
+    </style>
+  </head>
+
   <body>
-    <h1>Kia ora Taiao! (Hello World!)</h1> 
-    <p> This is the beginning of my website home page.</p>
-    <p> It will eventually contain a list of links to all my blogs. </p>
+    <div class="image-wrapper">
+      <img
+        class="image-tem"
+        src="file:///Users/tempearse/Desktop/Repositories/tem-pearse.github.io/images/31124324_10209210940110869_9142505705410920448_n.jpg"
+        alt="picture of me"
+        width="500"
+        height="500"
+      />
+    </div>
+    <header class="header">
+      <h1>Tems Dev Adventure</h1>
+    </header>
+
+    <nav class="navigation">
+      <a
+        href="file:///Users/tempearse/Desktop/Repositories/tem-pearse.github.io/blog/te-houtawa-template.html"
+        >Te Houtawa</a
+      >
+      <a
+        href="file:///Users/tempearse/Desktop/Repositories/tem-pearse.github.io/blog/te-houtawa-template.html"
+        >Core</a
+      >
+
+      <a
+        href="file:///Users/tempearse/Desktop/Repositories/tem-pearse.github.io/blog/te-houtawa-template.html"
+        >Tech</a
+      >
+    </nav>
+
+    <main class="helloMessage">
+      <p>wassup everyone. My name is Tem and this is my blog</p>
+
+      <p>
+        This is the first paragraph. i am adding it to see if my page scales or
+        not so the next lines will be utter gibberish. actually not here a
+        paragraph about paragraphs Paragraphs are the building blocks of papers.
+        Many students define paragraphs in terms of length: a paragraph is a
+        group of at least five sentences, a paragraph is half a page long, etc.
+        In reality, though, the unity and coherence of ideas among sentences is
+        what constitutes a paragraph. A paragraph is defined as “a group of
+        sentences or a single sentence that forms a unit” (Lunsford and Connors
+        116). Length and appearance do not determine whether a section in a
+        paper is a paragraph. For instance, in some styles of writing,
+        particularly journalistic styles, a paragraph can be just one sentence
+        long. Ultimately, a paragraph is a sentence or group of sentences that
+        support one main idea. In this handout, we will refer to this as the
+        “controlling idea,” because it controls what happens in the rest of the
+        paragraph.
+      </p>
+
+      <p>This is the second paragraph.</p>
+    </main>
   </body>
 </html>
