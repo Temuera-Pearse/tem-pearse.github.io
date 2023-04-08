@@ -1,0 +1,244 @@
+* {
+  box-sizing: border-box;
+  border-radius: 20px;
+}
+
+body {
+  margin: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-image: url('https://img.freepik.com/premium-photo/wood-texture-background-texture-wood-surface_692702-2710.jpg');
+  background-size: auto;
+  background-position: center;
+  background-color: rgb(251, 228, 180);
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.image-tem {
+  margin: 20px;
+  max-width: 100%;
+  height: auto;
+  border-radius: 50%;
+  border: 5px solid rgb(0, 0, 0);
+}
+
+.image-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 50px;
+}
+
+.header {
+  text-align: center;
+  font-size: 40px;
+  margin: 10px;
+  padding: 10px;
+  background-image: url('https://wallpapercave.com/wp/JoFTfPX.jpg');
+}
+
+.helloMessage {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-size: 30px;
+}
+
+.links {
+  background-color: antiquewhite;
+  display: flex;
+  justify-content: flex-start;
+  align-items: left;
+  text-align: left;
+  width: fit-content;
+  margin-left: 0;
+}
+
+.links a {
+  display: inline-block;
+  margin: 0 10px;
+  color: rgb(255, 25, 25);
+  text-decoration: none;
+  font-size: 30px;
+}
+
+.links a:hover {
+  color: #000;
+}
+
+.highlight {
+  color: blue;
+  font-weight: bold;
+}
+
+h2 {
+  display: flex;
+  text-align: center;
+  margin: 20px;
+  font-style: italic;
+  font-weight: 100;
+}
+
+p {
+  display: flex;
+  text-align: center;
+  margin-bottom: 20px;
+  padding: 10px;
+}
+
+.text-background {
+  background-color: antiquewhite;
+  margin: 20px 20px 20px 20px;
+  padding: 10px 10px 10px 10px;
+  text-align: center;
+  align-items: center;
+}
+
+.tag {
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-weight: lighter;
+  text-align: center;
+  padding: 7px 4px 7px 4px;
+  border-radius: 10px;
+  display: inline;
+  left: 30px;
+}
+
+.blog-box-container {
+  display: flex;
+  justify-content: space-evenly;
+  margin-top: 50px;
+  align-items: center;
+}
+
+.blog-box-container a {
+  margin-top: 20px;
+}
+
+.blog-box-1,
+.blog-box-2,
+.blog-box-3 {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+  position: relative;
+  padding: 10px 10px 150px 10px;
+  background-size: cover;
+  background-position: center;
+  text-align: center;
+  color: white;
+  border-radius: 10px;
+  width: 400px;
+  height: 480px;
+}
+
+.blog-box-core {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+  position: relative;
+  padding: 10px 10px 150px 10px;
+  background-size: cover;
+  background-position: center;
+  text-align: center;
+  color: white;
+  border-radius: 10px;
+  width: 400px;
+  height: 400px;
+}
+
+.blog-box-1 {
+  background-image: url('https://media.istockphoto.com/id/1205214235/photo/path-through-sunlit-forest.jpg?s=612x612&w=0&k=20&c=-AS1aTz85kcZ2X7E8n2iFlm6dsdIMyWGWrSDQ1o-f_0=');
+  margin-right: 2%;
+}
+
+.blog-box-2 {
+  background-image: url('https://images.unsplash.com/photo-1559825481-12a05cc00344?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8M3x8b2NlYW58ZW58MHx8MHx8&w=1000&q=80');
+  margin-right: 2%;
+}
+
+.blog-box-3 {
+  background-image: url('https://media.istockphoto.com/id/1278948845/photo/night-sky-above-caucasus-mountains.jpg?s=612x612&w=0&k=20&c=cN8pDbsrFS0rYpUiDRupoamg5ySkzojS2ENqNMDdnQU=');
+  margin-right: 0%;
+}
+
+.blog-box-core {
+  background-image: url('https://images.unsplash.com/photo-1588421357574-87938a86fa28?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxleHBsb3JlLWZlZWR8Mnx8fGVufDB8fHx8&w=1000&q=80');
+  margin-right: 0%;
+}
+
+.blog-box-1 a,
+.blog-box-2 a,
+.blog-box-3 a,
+.blog-box-core a {
+  color: red;
+  flex: 1;
+  text-align: center;
+}
+
+.blog-box-1 a:hover,
+.blog-box-2 a:hover,
+.blog-box-3 a:hover,
+.blog-box-core a:hover {
+  color: black;
+}
+
+@media only screen and (max-width: 768px) {
+  .image-tem {
+    max-width: 50%;
+  }
+
+  .blog-box-container {
+    flex-wrap: wrap;
+    flex-direction: column;
+    margin: 0 auto;
+  }
+
+  .blog-box-1,
+  .blog-box-2,
+  .blog-box-3,
+  .blog-box-core {
+    margin-bottom: 20px;
+  }
+}
+
+@media only screen and (min-width: 768px) {
+  .image-tem {
+    max-width: 50%;
+  }
+
+  .blog-box-container {
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+
+  .blog-box-1,
+  .blog-box-2,
+  .blog-box-3,
+  .blog-box-core {
+    margin: 20px;
+  }
+}
+
+@media only screen and (min-width: 1024px) {
+  .blog-box-container {
+    flex-direction: inline-block;
+  }
+
+  .image-tem {
+    max-width: 100%;
+  }
+
+  .header {
+    font-size: 60px;
+  }
+
+  .helloMessage {
+    font-size: 40px;
+  }
+}
