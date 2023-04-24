@@ -102,6 +102,11 @@ p {
   text-align: center;
 }
 
+.text-background strong {
+  display: block;
+  margin: auto;
+}
+
 .tag {
   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
   font-weight: lighter;
@@ -197,13 +202,11 @@ p {
   .image-tem {
     max-width: 50%;
   }
-
   .blog-box-container {
     flex-wrap: wrap;
     flex-direction: column;
     margin: 0 auto;
   }
-
   .blog-box-1,
   .blog-box-2,
   .blog-box-3,
@@ -216,12 +219,10 @@ p {
   .image-tem {
     max-width: 50%;
   }
-
   .blog-box-container {
     flex-wrap: wrap;
     justify-content: space-between;
   }
-
   .blog-box-1,
   .blog-box-2,
   .blog-box-3,
@@ -234,16 +235,40 @@ p {
   .blog-box-container {
     flex-direction: inline-block;
   }
-
   .image-tem {
     max-width: 100%;
   }
-
   .header {
     font-size: 60px;
   }
-
   .helloMessage {
     font-size: 40px;
+  }
+}
+
+@media (max-width: 768px) {
+  .text-background {
+    font-size: 16px;
+  }
+  .header {
+    font-size: 30px;
+  }
+
+  .image-wrapper img {
+    width: 100%;
+  }
+}
+
+@media (max-width: 576px) {
+  .text-background {
+    font-size: 14px;
+  }
+
+  .header {
+    font-size: 28px;
+  }
+
+  .image-wrapper img {
+    width: 100%;
   }
 }
